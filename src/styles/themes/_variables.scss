@@ -1,0 +1,38 @@
+@import "../abstracts/variables";
+
+$mat-blue: (
+  300: $light-blue,
+  500: $blue,
+  700: $dark-blue,
+  contrast: (
+    300: $white,
+    500: $light-blue,
+    700: $light-blue
+  )
+);
+
+$mat-green: (
+  300: $light-green,
+  500: $green,
+  700: $dark-green,
+  contrast: (
+    300: $white,
+    500: $light-green,
+    700: $light-green
+  )
+);
+
+$mat-pink: (
+  300: $light-pink,
+  500: $pink,
+  700: $light-pink,
+  contrast: (
+    300: $white,
+    500: $light-pink,
+    700: $light-pink
+  )
+);
+
+$primary: mat-palette($mat-blue, 300, 500, 700);
+$accent: mat-palette($mat-green, 300, 500, 700);
+$warn: mat-palette($mat-pink, 300, 500, 700);
