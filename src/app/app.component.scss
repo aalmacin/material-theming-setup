@@ -1,0 +1,9 @@
+@import "framework";
+
+.just-blue {
+  background-color: getColor(blue, light);
+  color: getColor(blue, dark);
+
+  @include padding(lg);
+  @include font-size(xl);
+}

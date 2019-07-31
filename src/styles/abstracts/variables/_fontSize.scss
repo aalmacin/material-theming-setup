@@ -1,0 +1,6 @@
+$fontSizeMap: (
+  sm: calc(#{$rootEm} * 0.5),
+  base: calc(#{$rootEm} * 1),
+  lg: calc(#{$rootEm} * 2),
+  xl: calc(#{$rootEm} * 3)
+);

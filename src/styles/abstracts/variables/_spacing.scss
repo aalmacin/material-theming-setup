@@ -1,0 +1,5 @@
+$spacingMap: (
+  sm: calc(#{$rootEm} * 0.5),
+  base: calc(#{$rootEm} * 1),
+  lg: calc(#{$rootEm} * 1.5)
+);

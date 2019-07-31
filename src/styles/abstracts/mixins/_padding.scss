@@ -1,0 +1,23 @@
+@mixin padding($token, $directions: a) {
+  $paddingValue: map-get($spacingMap, $token);
+
+  @if $directions==a {
+    padding: $paddingValue;
+  } @else {
+    @if (str-index($direction, t) or str-index($direction, y)) {
+      padding-top: $paddingValue;
+    }
+
+    @if (str-index($direction, b) or str-index($direction, y)) {
+      padding-bottom: $paddingValue;
+    }
+
+    @if (str-index($direction, l) or str-index($direction, x)) {
+      padding-left: $paddingValue;
+    }
+
+    @if (str-index($direction, r) or str-index($direction, x)) {
+      padding-right: $paddingValue;
+    }
+  }
+}

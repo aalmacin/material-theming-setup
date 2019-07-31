@@ -1,0 +1,22 @@
+$light-blue: #8bbdc9;
+$blue: #6fadbc;
+$dark-blue: #588a96;
+
+$light-green: #8bc9b7;
+$green: #6fbca5;
+$dark-green: #589684;
+
+$light-pink: #c98bbd;
+$pink: #bc6fad;
+$dark-pink: #96588a;
+
+$white: #f0f6f8;
+$black: #162225;
+
+$colorMap: (
+  blue: (
+    light: $light-blue,
+    base: $blue,
+    dark: $dark-blue
+  )
+);
